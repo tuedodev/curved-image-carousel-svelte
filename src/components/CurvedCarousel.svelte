@@ -173,7 +173,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-	<title>A Curved Carousel in Svelte with Grabbing Function</title>
+	<title>A Curved Carousel in Svelte with Grabbing Functionality</title>
 </svelte:head>
 
 <svelte:body on:wheel={imageArray.length >= MINIMUM_AMOUNT_OF_IMAGES ? wheel : null} />
