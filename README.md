@@ -1,4 +1,4 @@
-# Curved Image Carousel: Swipe and Grabbing coded in Svelte
+# Curved Image Carousel coded in Svelte with Swipe and Grabbing functionality
 
 Live-Demo on [CodePen](https://codepen.io/tuedodev/pen/ZEJMmyB).
 
