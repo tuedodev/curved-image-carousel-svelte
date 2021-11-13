@@ -77,9 +77,9 @@
 
 	function calculateSlidePosition(xPosition) {
 		let rotate = angle(xPosition);
-		let xpos = xPosition * slideWidth * 0.9; // (vw / 2) - slideWidth / 2???
+		let xpos = xPosition * slideWidth * 0.9;
 		let yCurve = graph(xPosition) * (vh / 1.5);
-		let ypos = -yCurve; // vh / 2 - slideHeight / 2 - yCurve;
+		let ypos = -yCurve;
 		return { xpos, ypos, rotate };
 	}
 
